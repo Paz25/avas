@@ -1,0 +1,10 @@
+.profile-buttons {
+    background-color: #fff;
+    border: 1px solid #66754C;
+    transition: background-color 0.3s ease-out;
+}
+
+.profile-buttons:hover {
+    background-color: #66754C;
+    color: #fff;
+}

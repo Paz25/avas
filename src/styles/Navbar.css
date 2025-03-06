@@ -1,0 +1,80 @@
+/* Navbar.css */
+
+/* Import the fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300;400;500;600&display=swap');
+
+.nav-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item:hover {
+    background-color: #66754C !important;
+}
+
+.nav-item:hover .nav-link {
+    color: white !important;
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+    padding: 0 !important;
+    color: #0D330E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* Logo styling with Abril Fatface font */
+.brand-logo {
+    font-family: 'Abril Fatface', cursive !important;
+    font-weight: normal !important;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Ensure the logo section doesn't expand */
+.flex-grow-0 {
+    flex-grow: 0 !important;
+}
+
+/* Make the navigation sections equal width */
+.flex-basis-0 {
+    flex-basis: 0 !important;
+}
+
+/* Icon container and circle hover effects */
+.icon-container {
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: background-color 0.3s ease, color 0.3s ease !important;
+    padding: 0 !important;
+    /* Remove any padding */
+    line-height: 1 !important;
+    /* Reset line height */
+    text-align: center !important;
+    position: relative !important;
+}
+
+.icon-link:hover {
+    background-color: #66754C !important;
+}
+
+.icon-link:hover i {
+    color: white !important;
+}
+
+/* For the icons */
+.bi {
+    transition: color 0.3s ease;
+}
