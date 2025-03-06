@@ -6,7 +6,7 @@ import DynamicPageTitle from '../components/DynamicPageTitle';
 
 const routes = [
     {
-        path: '/AboutUs',
+        path: '/AboutUsPage',
         name: "About Us",
     },
     {
@@ -18,7 +18,7 @@ const routes = [
         name: "AVASARA",
     },
     {
-        path: '/Newsletter',
+        path: '/NewsletterPage',
         name: "Newsletter",
     },
     {
